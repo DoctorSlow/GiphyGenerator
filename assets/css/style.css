@@ -4,3 +4,20 @@ form,
 input {
     margin: 10px;
 }
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../images/Radio.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .jumbotron {
+    background: transparent;
+} */

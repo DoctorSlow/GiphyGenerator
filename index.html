@@ -13,23 +13,31 @@
     <!-- jquery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <title>Giphy Generator App</title>
+    <title>Silent Radio Gif Generator</title>
 
 </head>
 
 <body>
     <div class="container">
-        <h1>Gif Generator!</h1>
-
-        <div id="buttons-view"></div>
-
-        <form id="theme-form">
-            <label for="theme-input">Add a theme</label>
-            <input type="text" id="theme-input">
-            <br>
-            <input id="add-theme" type="submit" value="Add a theme">
-        </form>
-        <div id="themes-view"></div>
+        <div class="row">
+            <div class="col-lg-offset-2 col-lg-12">
+                <div class="jumbotron">
+                    <h1>Silent Radio Gif Generator!</h1>
+                    <div id="buttons-view"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <form id="theme-form">
+                    <label for="theme-input">Add a genre</label>
+                    <input type="text" id="theme-input">
+                    <br>
+                    <input id="add-theme" type="submit" value="Add a theme">
+                </form>
+                <div id="themes-view"></div>
+            </div>
+        </div>
     </div>
 
     <script type="text/javascript" src="assets/javascript/app.js"></script>
