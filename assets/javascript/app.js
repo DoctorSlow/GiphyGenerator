@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    // $("#themes-view").clear();
     var topics = ["rock'n'roll", "reggae", "hip-hop", "heavy-metal", "jazz", "rnb", "techno"];
     var gifs;
 
@@ -29,7 +29,7 @@ $(document).ready(function () {
         $("#buttons-view").empty();
         for (var i = 0; i < topics.length; i++) {
             var a = $("<button>");
-            a.addClass("theme-btn");
+            a.addClass("theme-btn btn btn-light-green");
             a.attr("data-name", topics[i]);
             a.text(topics[i]);
             $("#buttons-view").append(a);
@@ -46,6 +46,7 @@ $(document).ready(function () {
     $(document).on("click", ".theme-btn", displayGifs);
     renderButtons();
     displayGifs();
+    // $("#themes-view").clear();
 });
 
 
